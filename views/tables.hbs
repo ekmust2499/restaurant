@@ -11,10 +11,11 @@
     <style type="text/css">
       #one, #two, #three{
         display: inline-block;
-        height: 40%;
+        height: 50%;
         width: 33.2%;
-        box-sizing: border-box;
-        border: 1px solid #6698ff;
+        border-right: 1px solid #6698ff;
+        border-left: 1px solid #6698ff;
+        border-top: 1px solid #6698ff;
         margin: -1px -1px 0 0;
         vertical-align: top;
         margin-right: -5px;
@@ -46,6 +47,10 @@
       #main_container {
         height: 100%;
       }
+      #hours {
+      height: 100%;
+      border-bottom: 1px solid #6698ff;
+      }
 
     </style>
 </head>
@@ -59,7 +64,7 @@
       <a href="/tables"><button type="button" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-info-sign"></span>Столики</button></a></h2> <br />
 
       <h2>В настоящий момент доступны для бронирования:</h2><br />
-     
+      <div id="hours">
         <div id="one">
           <h3>{{hour1}}</h3>
               <ul type="circle">
@@ -85,6 +90,7 @@
               </ul>
         </div>
       </div>
+    </div>
     <div id="footer">{{> footer}}</div>
   </div>
 </body>
