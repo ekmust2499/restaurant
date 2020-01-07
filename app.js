@@ -10,7 +10,7 @@ const Day = require("./models/day").model;
 const bodyParser = require("body-parser");
 const urlencodedParser = bodyParser.urlencoded({extended: false});
 // Установим подключение по умолчанию
-const mongoDB = 'mongodb+srv://ekmust:<password>@cluster0-z34ib.mongodb.net/restaurant?retryWrites=true&w=majority';
+const mongoDB = 'mongodb+srv://ekmust:Ekaterina2417@cluster0-z34ib.mongodb.net/restaurant?retryWrites=true&w=majority';
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
    if (err) throw err;
   console.log('Successfully connected!');
