@@ -9,11 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <style type="text/css">
-      #hours {
-        height: 40%;
-      }
       #one, #two, #three{
         display: inline-block;
+        height: 40%;
         width: 33.3%;
         box-sizing: border-box;
         border: 1px solid #6698ff;
@@ -59,7 +57,7 @@
       <a href="/tables"><button type="button" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-info-sign"></span>Столики</button></a></h2> <br />
 
       <h2>В настоящий момент доступны для бронирования:</h2><br />
-      <div id="hours">
+     
         <div id="one">
           <h3>{{hour1}}</h3>
               <ul type="circle">
@@ -84,7 +82,7 @@
                   {{/each}}
               </ul>
         </div>
-      </div>
+      
     </div>
     <div id="footer">{{> footer}}</div>
   </div>
