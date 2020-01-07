@@ -51,15 +51,15 @@
     </style>
 </head>
 <body >
-  <div class="container" id="main_container">
+  
     <div class="jumbotron">
-      <div id="in">
       <h1><b>BELLAGIO</b></h1>      
       <hr>
       <h2><a href="/"><button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-home"></span>На главную</button></a>
       <a href="/reserve"><button type="button" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-plus"></span> Бронирование</button></a>
       <a href="/tables"><button type="button" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-info-sign"></span>Столики</button></a></h2> <br />
 
+      <h2>В настоящий момент доступны для бронирования:</h2><br />
      
         <div id="one">
           <h3>{{hour1}}</h3>
@@ -86,8 +86,7 @@
               </ul>
         </div>
       </div>
-    </div>
     <div id="footer">{{> footer}}</div>
-  </div>
+  
 </body>
 </html>
