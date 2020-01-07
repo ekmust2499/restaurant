@@ -1,0 +1,23 @@
+"Бронирование столика в ресторане"
+Есть база данных, например mongodb, где записаны все брони столиков и свободные места. 
+Мы заходим на главную страницу ресторана, узнаем свободные места на разные даты и бронируем столик.
+
+NODE.JS, фреймворк express
+
+По этим урокам пройтись, заменяя библиотеку Local Library на ресторан, делая точь-в-точь
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
+
+Роли (администраторы, управленческие) - по желанию
+Платежная система - по желанию
+
+Сдавать - на консультации перед экзаменом
+
+Для CSS
+https://www.w3schools.com/bootstrap/
+
+/*
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+*/
